@@ -1,0 +1,32 @@
+{
+  "name": "kv-tag",
+  "version": "0.0.0",
+  "description": "convert template tags with `key: value` statements to objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard . && node tests/index.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethvincent/kv-tag.git"
+  },
+  "keywords": [
+    "config",
+    "config file",
+    "key value",
+    "tagged template literal",
+    "template literal",
+    "tag function"
+  ],
+  "author": "sethvincent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sethvincent/kv-tag/issues"
+  },
+  "homepage": "https://github.com/sethvincent/kv-tag#readme",
+  "devDependencies": {
+    "standard": "^8.6.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  }
+}
